@@ -57,7 +57,7 @@ for rss_url in rss_urls:
             for chat_id in chat_ids:
                 post_to_telegram(chat_id, message)
 			
-			new_items.append(published_time, title)
+	    new_items.append(published_time, title)
 			
 # Save the new feed item
 save_feed_item(new_items)
