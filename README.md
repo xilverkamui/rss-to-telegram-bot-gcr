@@ -1,4 +1,15 @@
 # RSS To Telegram Bot Using Google Cloud Run
+
+## Configuration
+To configure this bot add the environment variables stated below. 
+- `BOT_TOKEN` - Get it by creating a bot on [https://t.me/BotFather](https://t.me/BotFather)
+- `CHAT_IDS` - Chat ID of the chats where to send messages. Separated by comma.
+- `RSS_URLS` - RSS feed URL from where to send messages. Separated by comma.
+- `DB_HOST` - MySQL/MariaDB database host
+- `DB_USER` - MySQL/MariaDB database user name
+- `DB_PASSWORD` - MySQL/MariaDB database user password
+- `DB_NAME` - MySQL/MariaDB database name
+
 ## Deployment To Google Cloud Run
 1. Google Cloud CLI Authentication
 ```
